@@ -3,7 +3,8 @@ Meet our Etsy Gourmet pastry shop, where multiple sellers can share their delici
 This API enables a user to filter all the products displayes on our e-shop as well as find products by category.
 It also has an interface for visitors willing to be sellers, and share their products. 
 By creating our own API, we are able to pull the products from our database we were able to pull data as well as create a unique UX/UI design, according to our wireframe.
-Discover our e-shop at : **https://gourmet-e-shop-front.netlify.app**
+This project was done in partenrship with 2 other people, Liv Darby and Jamie Sellerman. We had 5 days, to create a fully working API and create a frontend to feature the api's information, in an appealing way.
+**Discover our e-shop at : **https://gourmet-e-shop-front.netlify.app****
 
 ## Features : 
 Our e-shop offers two sections :
@@ -25,5 +26,10 @@ Our e-shop offers two sections :
 - Accessing the backend only : https://gourmet-e-shop.netlify.app/api/products
 - Uploading the databaase using Mongo Atlas
 - Using additional libraries, apps and features such as bcrypt to hash the passwords, JTW(jsonwebtoken) to assign a token to each logged-in user
+
+## Design and Planning
+We created this project in 5 days. 
+The first 2 days were dedicated to creating the structire of both the front-end and backend.
+We started with some wireframing and using notion to define our project. We quickly setted on an e-shop project, a food version of etsy. 
 
 
