@@ -82,7 +82,7 @@ The final three days were characterized by more autonomous management. On day th
 2. **Seller Home Page Development:** Creating a homepage for sellers to display their products and the total number of units sold was my next challenge. Collaborating with Liv, who implemented the functionality to increment units sold/product, significantly streamlined this process. Achieving this on the backend allowed for a more straightforward frontend implementation. Then after quite a bit a research and trial and error I managed to sum up  the total sales involved, by using a for loop. 
 
    ```javascript
-   // Get ALL products/Seller:
+   // Get ALL products/Seller (BACKEND)
    export async function getProductsbySeller(req, res) {
      try {
        const sellerId = req.params.userId;
@@ -101,6 +101,27 @@ The final three days were characterized by more autonomous management. On day th
        res.status(500).send({ message: "error while getting products" });
      }
    }
+   ```
+   ```
+   // FRONT_END - display sum total of products sold
+  useEffect(() => {
+    async function fetchProducts() {
+      if (!user || !user._id) return; // Check if user and user._id are present
+      console.log(user);
+      const response = await fetch(`${baseUrl}/getProducts/${user._id}`);
+      const data = await response.json();
+      setProducts(data);
+
+      let total = 0;
+      for (const product of data) {
+        total += Number(product.unitsSold);
+      }
+      setTotalUnitsSold(total);
+    }
+
+    fetchProducts();
+  }, [user]);
+  console.log(products);
    ```
 
    - **Seller Home Page:** Demonstrating the successful aggregation of sales data for seller products. ![Seller Home Page](./img/SellerHomePageUnits.png)
