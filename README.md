@@ -64,7 +64,7 @@ The final three days were characterized by more autonomous management. On day th
 
 ## My Main Goals:
 
-1. **Categorizing Products:** My first major task was to feature all product categories on the home page. Understanding the logic behind retrieving all categories, as opposed to a single category from each product, was challenging. MongoDB's documentation proved invaluable, offering a straightforward method to fetch categories using the `distinct` function.
+1. **Categorizing Products:** My first task was to feature all product categories on the home page. Understanding the logic behind retrieving all categories, as opposed to a single category from each product, was challenging. MongoDB's documentation proved invaluable, offering a straightforward method to fetch categories using the `distinct` function.
 
    ```javascript
    // ROUTER
