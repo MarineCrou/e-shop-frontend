@@ -1,4 +1,4 @@
-# Introductiom
+# Introduction
 
 Meet our Etsy Gourmet pastry shop, where multiple sellers can share their delicious pastries, chocolates and cheeses.
 This API enables a user to filter all the products displayes on our e-shop as well as find products by category.
