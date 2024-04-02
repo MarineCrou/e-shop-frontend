@@ -79,7 +79,7 @@ The final three days were characterized by more autonomous management. On day th
    }
    ```
 
-2. **Seller Home Page Development:** Creating a homepage for sellers to display their products and the total number of units sold was my next challenge. Collaborating with Liv, who implemented the functionality to increment units sold/product, significantly streamlined this process. Achieving this on the backend allowed for a more straightforward frontend implementation. Summing the total sales involved a complex solution, that i mostly found online (thank god for ressources).
+2. **Seller Home Page Development:** Creating a homepage for sellers to display their products and the total number of units sold was my next challenge. Collaborating with Liv, who implemented the functionality to increment units sold/product, significantly streamlined this process. Achieving this on the backend allowed for a more straightforward frontend implementation. Then after quite a bit a research and trial and error I managed to sum up  the total sales involved, by using a for loop. 
 
    ```javascript
    // Get ALL products/Seller:
