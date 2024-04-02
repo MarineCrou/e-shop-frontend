@@ -104,7 +104,7 @@ The final three days were characterized by more autonomous management. On day th
    ```
    ```
    // FRONT_END - display sum total of products sold
-  useEffect(() => {
+   useEffect(() => {
     async function fetchProducts() {
       if (!user || !user._id) return; // Check if user and user._id are present
       console.log(user);
