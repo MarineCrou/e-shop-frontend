@@ -1,10 +1,10 @@
 # Introduction
 
 Meet our Etsy Gourmet pastry shop, where multiple sellers can share their delicious pastries, chocolates and cheeses.
-This API enables a user to filter all the products displayes on our e-shop as well as find products by category.
+This API enables a user to filter all the products displays on our e-shop as well as find products by category.
 It also has an interface for visitors willing to be sellers, and share their products.
 By creating our own API, we are able to pull the products from our database we were able to pull data as well as create a unique UX/UI design, according to our wireframe.
-This project was done in partenrship with 2 other people, Liv Darby and Jamie Sellerman. We had 5 days, to create a fully working API and create a frontend to feature the api's information, in an appealing way.
+This project was done in partnership with 2 other people, Liv Darby and Jamie Sellerman. We had 5 days, to create a fully working API and create a frontend to feature the api's information, in an appealing way.
 
 # Installation Instructions
 
