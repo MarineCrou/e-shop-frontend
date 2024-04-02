@@ -102,8 +102,8 @@ The final three days were characterized by more autonomous management. On day th
      }
    }
    ```
+    FRONT_END - display sum total of products sold
    ```
-   // FRONT_END - display sum total of products sold
    useEffect(() => {
     async function fetchProducts() {
       if (!user || !user._id) return; // Check if user and user._id are present
@@ -120,8 +120,8 @@ The final three days were characterized by more autonomous management. On day th
     }
 
     fetchProducts();
-  }, [user]);
-  console.log(products);
+   }, [user]);
+   console.log(products);
    ```
 
    - **Seller Home Page:** Demonstrating the successful aggregation of sales data for seller products. ![Seller Home Page](./img/SellerHomePageUnits.png)
