@@ -10,6 +10,7 @@ This project was done in partnership with 2 other people, Liv Darby and Jamie Se
 
 Nothing much to do apart from click on our link and surf away on our lovely website :
 **Discover our e-shop at : **https://gourmet-e-shop-front.netlify.app****
+For access to our API, follow : https://gourmet-e-shop.netlify.app/api/products
 
 # Features :
 
