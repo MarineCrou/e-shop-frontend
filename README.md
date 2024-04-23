@@ -1,15 +1,72 @@
 # Introductiom
 
-Meet our Etsy Gourmet pastry shop, where multiple sellers can share their delicious pastries, chocolates and cheeses.
-This API enables a user to filter all the products displayes on our e-shop as well as find products by category.
-It also has an interface for visitors willing to be sellers, and share their products.
-By creating our own API, we are able to pull the products from our database we were able to pull data as well as create a unique UX/UI design, according to our wireframe.
-This project was done in partenrship with 2 other people, Liv Darby and Jamie Sellerman. We had 5 days, to create a fully working API and create a frontend to feature the api's information, in an appealing way.
+Welcome to our Etsy Gourmet pastry shop, where multiple sellers can showcase their delicious pastries, chocolates, and cheeses.
+This API enables users to filter all the products displayed on our e-shop and find products by category.
+It also provides an interface for visitors who wish to become sellers and share their products.
+By creating our own API, we were able to pull products from our database and design a unique UX/UI according to our wireframe
+This project was done in partnership with two other people, Liv Darby and Jamie Sellerman.
+We had 5 days to create a fully working API and develop a frontend to feature the API’s information in an appealing way.
+
+Click on our link and surf away on our lovely website :
+**Discover our e-shop at : **https://gourmet-e-shop-front.netlify.app****
 
 # Installation Instructions
 
-Nothing much to do apart from click on our link and surf away on our lovely website :
-**Discover our e-shop at : **https://gourmet-e-shop-front.netlify.app****
+To get started with this project locally, you will need Node.js and npm installed on the Frontend.
+On the backend, you will need express, mongoose and Mango Db.
+
+Here are the steps to set up the project:
+
+### Front-end :
+
+1. Clone the front-end repository to your local machine.
+2. Navigate to the root of the project directory.
+3. Run `npm install` to install all dependencies.
+4. Execute `npm run dev` to start the development server.
+5. Open your browser and go to `http://localhost:3000` to view the app.
+
+### Back-end :
+
+#### Prerequisites
+
+Ensure the following are installed:
+
+- **Node.js**: Version 14 or higher recommended.
+- **npm**: Usually comes with Node.js.
+- **MongoDB**: Can be installed locally or configured to use a remote database.
+
+#### Setup Instructions
+
+1. **Clone the Repository**:
+   ```bash
+   git clone [https://github.com/MarineCrou/project-3-backend]
+   cd [Project Folder]
+   ```
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+3. **Configure Environment Variables**:
+   Create an `.env` file in the root directory of your project and add the following:
+   PORT: The port number on which the server will listen (e.g., 3000).
+   MONGO_URI: Your MongoDB connection string.
+   JWT_SECRET: A secret key for JWT token generation and verification.
+   Example .env file:
+   ```bash
+   PORT=3000
+   MONGO_URI=mongodb://localhost:27017/myapp
+   JWT_SECRET=verysecretkey
+   ```
+4. **Start the Server:**
+   ```bash
+   npm run dev
+   ```
+   It will should open http://localhost:3000 in a browser to verify that the server is running.
+
+#### Additional Notes
+
+- Ensure MongoDB is running if using a local installation.
+- Secure routes requiring authentication with JWT middleware.
 
 # Features :
 
