@@ -10,6 +10,8 @@ We had 5 days to create a fully working API and develop a frontend to feature th
 Click on our link and surf away on our lovely website :
 **Discover our e-shop at : **https://gourmet-e-shop-front.netlify.app****
 
+To check the API (backend), follow this link : https://github.com/MarineCrou/e-shop-backend
+
 # Installation Instructions
 
 To get started with this project locally, you will need Node.js and npm installed on the Frontend.
